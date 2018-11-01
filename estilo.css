@@ -1,5 +1,6 @@
-body{
-	margin: 0px;
+body, ul, h1, p{
+	margin: 0;
+	padding: 0;
 }
 nav{
 	position: fixed;
@@ -15,6 +16,8 @@ nav img{
 
 h1{
 	text-align: center;
+	letter-spacing: 2.5px;
+
 }
 
 ul.navbar{
@@ -29,10 +32,41 @@ ul.navbar li{
 	display: inline;
 }
 
+.button{
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.comienza{
+	background-color: rgb(44,124,178);
+}
+.info{
+	background-color: rgb(83,183,104);
+}
+
 section#banner{
 	background-image: url("./images/bg.jpeg");
 	color: white;
 	font-size: 20px;
+	padding: 90px;
 
+}
+
+#banner p{
+	text-align: center;
+	padding: 20px;
+}
+
+#banner div{
+	text-align: center;
 }
 
