@@ -4,7 +4,7 @@ body, ul, h1, p{
 }
 nav{
 	position: fixed;
-	top: 0;
+	top: 10%;
 	width: 90%;
 	
 }
@@ -17,6 +17,8 @@ nav img{
 h1{
 	text-align: center;
 	letter-spacing: 2.5px;
+	line-height: 1.6;
+	margin-top: 50px;
 
 }
 
@@ -35,11 +37,11 @@ ul.navbar li{
 .button{
     border: none;
     color: white;
-    padding: 15px 35px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
@@ -51,6 +53,7 @@ ul.navbar li{
 }
 .info{
 	background-color: rgb(83,183,104);
+	padding: 15px;
 }
 
 section#banner{
@@ -63,10 +66,10 @@ section#banner{
 
 #banner p{
 	text-align: center;
-	padding: 20px;
 }
 
 #banner div{
 	text-align: center;
+	padding: 40px;
 }
 
