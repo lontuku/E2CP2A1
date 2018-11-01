@@ -1,0 +1,38 @@
+body{
+	margin: 0px;
+}
+nav{
+	position: fixed;
+	top: 0;
+	width: 90%;
+	
+}
+
+nav img{
+	max-width: 200px;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+}
+
+ul.navbar{
+	list-style-type: none;
+	height: 200px;
+	float: right;
+}
+
+ul.navbar li{
+	padding: 10px;
+	color: grey;
+	display: inline;
+}
+
+section#banner{
+	background-image: url("./images/bg.jpeg");
+	color: white;
+	font-size: 20px;
+
+}
+
